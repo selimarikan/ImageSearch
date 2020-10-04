@@ -1,0 +1,17 @@
+body,
+.dropzone {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-color: #303030;
+    color: whitesmoke; */
+}
+
+.result-card {
+    border-radius: 0px;
+    width: 300px;
+}
+
+.result-img {
+    border-radius: 0px;
+    object-fit: scale-down;
+    width: 100%;
+}

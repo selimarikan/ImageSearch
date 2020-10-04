@@ -1,0 +1,23 @@
+{
+    "extractor": {
+        "input_dir": "D:\\Dev\\ImageSearch\\imagesearch\\data\\celebahq\\train",
+        "out_features": "D:\\Dev\\ImageSearch\\imagesearch\\celebahq.parquet"
+    },
+    "model": {
+        "__comment__": "ImageNet mean and std are used",
+        "dataset_mean": [0.485, 0.456, 0.406],
+        "dataset_std": [0.229, 0.224, 0.225],
+        "input_size": 256,
+        "batch_size": 128,
+        "features_file": "celebahq.parquet"
+    },
+    "nearest": {
+        "model_path": "celeb.mdl",
+        "k_nearest": 20
+    },
+    "webapp": {
+        "host": "localhost",
+        "port": 1234,
+        "debug": true
+    }
+}
