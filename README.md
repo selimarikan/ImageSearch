@@ -4,9 +4,11 @@ This is a proof-of-concept image search application that uses `Python`, `PyTorch
 
 ![firstsample](i1.png)
 
+![thirdsample](i3.png)
+
 ![secondsample](i2.png)
 
-![thirdsample](i3.png)
+
 
 
 ### Getting the Dataset
